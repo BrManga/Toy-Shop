@@ -10,8 +10,10 @@ import ShopPage from "./pages/shop/shop";
 import CheckoutPage from "./pages/checkout/checkout";
 import Header from "./components/header/header";
 import SignInAndSignUp from "./pages/sign-in-and-sign-up/sign-in-and-sign-up";
-import { auth, createUserProfileDocument } from "./firebase/firebase.utils"; //To store user information inside APP
-
+import {
+  auth,
+  createUserProfileDocument
+} from "./firebase/firebase.utils"; //To store user information inside APP
 class App extends React.Component {
   //FIREBASE
   unsubscribeFromAuth = null;
@@ -29,6 +31,7 @@ class App extends React.Component {
         });
       }
       setCurrentUser(userAuth);
+
     });
   }
   componentWillUnmount() {
