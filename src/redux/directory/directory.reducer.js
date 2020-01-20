@@ -15,7 +15,7 @@ let initialState = {
       title: "2 -4 jährige kinder",
       imageUrl: zweiJahre,
       id: 2,
-      linkUrl: "shop/zweivierjaehrige"
+      linkUrl: "shop/zweivier"
     },
     {
       title: "5 - 7 jährige kinder",
