@@ -21,14 +21,14 @@ let initialState = {
       title: "5 - 7 jährige kinder",
       imageUrl: fünfJahre,
       id: 3,
-      linkUrl: "shop/fuenfsiebenjaehrige"
+      linkUrl: "shop/fuenfsieben"
     },
     {
       title: "8 - 11 jährige kinder",
       imageUrl: achtJahre,
       size: "large",
       id: 4,
-      linkUrl: "shop/achtelfjaehrige"
+      linkUrl: "shop/achtelf"
     },
     {
       title: "12 & Up",
