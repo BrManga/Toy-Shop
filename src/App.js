@@ -1,5 +1,4 @@
 import React from "react";
-import "./App.css";
 import { Switch, Route, Redirect } from "react-router-dom";
 import { connect } from "react-redux";
 import { setCurrentUser } from "./redux/user/user.action";
@@ -9,6 +8,7 @@ import Homepage from "./pages/homepage/Homepage";
 import ShopPage from "./pages/shop/shop";
 import CheckoutPage from "./pages/checkout/checkout";
 import Header from "./components/header/header";
+import { GlobalStyle } from './global.styles';
 import SignInAndSignUp from "./pages/sign-in-and-sign-up/sign-in-and-sign-up";
 import {
   auth,
@@ -41,6 +41,7 @@ class App extends React.Component {
   render() {
     return (
       <div>
+      <GlobalStyle/>
         <Header />
         <Switch>
           <Route exact path="/" component={Homepage} />
