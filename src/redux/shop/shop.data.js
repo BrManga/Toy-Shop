@@ -6,9 +6,9 @@ const SHOP_DATA = {
     items: [
       {
         id: 1,
-        name: "Giraffe",
+        name: "Xylophon",
         imageUrl:
-          "https://images.unsplash.com/photo-1552163065-7eee01c2f11e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80",
+          "https://images.unsplash.com/photo-1509781827353-fb95c262fc40?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=701&q=80",
         price: 15
       },
       {
