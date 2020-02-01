@@ -9,19 +9,20 @@ import CartDropdown from "../cart-dropdown/cart-dropdown";
 import { createStructuredSelector } from "reselect";
 import { selectCartHidden } from "../../redux/cart/cart.selectors";
 import { selectCurrentUser } from "../../redux/user/user.selectors";
-
+import shopnameLogo from "../../assets/shopnameLogo.png";
 const Header = ({ currentUser, hidden }) => (
   <div className="header">
     <Link className="logo-container" to="/">
       <Logo className="logo" />
     </Link>
+    <Link className="shopName" to="/">
+      MY TOYSHOP
+    </Link>
     <div className="options">
       <Link className="option" to="/shop">
         SHOP
       </Link>
-      <Link className="option" to="/shop">
-        CONTACT
-      </Link>
+
       {currentUser ? (
         <div className="option" onClick={() => auth.signOut()}>
           SIGN OUT

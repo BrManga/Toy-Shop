@@ -26,7 +26,20 @@
       height: 100%;
     }
   }
-
+  .shopName {
+    font-family: "Alegreya Sans", sans-serif;
+    height: 100%;
+    font-size: 1.8rem;
+    font-weight: 800;
+    padding: 1.2rem 0;
+    color: rgb(235, 84, 84);
+    letter-spacing: 0.3rem;
+    @media screen and (max-width: 800px) {
+      font-size: 0.7rem;
+      padding: 0.5rem 0;
+      letter-spacing: unset;
+    }
+  }
   .options {
     width: 50%;
     height: 100%;

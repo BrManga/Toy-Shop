@@ -45,6 +45,20 @@ const SHOP_DATA = {
         imageUrl:
           "https://images.unsplash.com/photo-1559364607-a7baef1b935e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=577&q=80",
         price: 25
+      },
+      {
+        id: 7,
+        name: "Activity Würfel",
+        imageUrl:
+          "https://images.unsplash.com/photo-1485460535564-844461f37f77?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80",
+        price: 15
+      },
+      {
+        id: 8,
+        name: "Baby Mütze",
+        imageUrl:
+          "https://images.unsplash.com/photo-1506804880640-f3205deb1b8b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80",
+        price: 25
       }
     ]
   },
@@ -53,13 +67,6 @@ const SHOP_DATA = {
     title: "2 -4 jährige kinder",
     routeName: "zweivierjaehrige",
     items: [
-      {
-        id: 10,
-        name: "Stormtrooper",
-        imageUrl:
-          "https://images.unsplash.com/photo-1472457897821-70d3819a0e24?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=749&q=80",
-        price: 20
-      },
       {
         id: 11,
         name: "Unicorn",
@@ -101,6 +108,20 @@ const SHOP_DATA = {
         imageUrl:
           "https://images.unsplash.com/photo-1562040506-a9b32cb51b94?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80",
         price: 20
+      },
+      {
+        id: 17,
+        name: "Pinguin",
+        imageUrl:
+          "https://images.unsplash.com/photo-1554825203-68321ddde262?ixlib=rb-1.2.1&auto=format&fit=crop&w=677&q=80",
+        price: 20
+      },
+      {
+        id: 18,
+        name: "Puppe",
+        imageUrl:
+          "https://images.unsplash.com/photo-1552899167-d0b2887ca549?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=358&q=80",
+        price: 21
       }
     ]
   },
@@ -110,39 +131,60 @@ const SHOP_DATA = {
     routeName: "fuenfsiebenjaehrige",
     items: [
       {
-        id: 18,
+        id: 19,
         name: "Lego 1 kilo",
         imageUrl:
           "https://images.unsplash.com/photo-1516981879613-9f5da904015f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=667&q=80",
         price: 100
       },
       {
-        id: 19,
+        id: 20,
         name: "Stormtrooper und seine Freunde ",
         imageUrl:
           "https://images.unsplash.com/photo-1518331647614-7a1f04cd34cf?ixlib=rb-1.2.1&auto=format&fit=crop&w=749&q=80",
         price: 45
       },
       {
-        id: 20,
+        id: 21,
         name: "Seifenblasenmaschine Pink",
         imageUrl:
           "https://images.unsplash.com/photo-1498842965061-82d264217c5f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80",
         price: 38
       },
       {
-        id: 21,
+        id: 22,
         name: "Schaukel",
         imageUrl:
           "https://images.unsplash.com/photo-1535912259434-add45732e720?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80",
         price: 25
       },
       {
-        id: 22,
+        id: 23,
         name: "Frontlader",
         imageUrl:
           "https://images.unsplash.com/photo-1573405201557-34554230bcf2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80",
         price: 22
+      },
+      {
+        id: 24,
+        name: "Pink Dino",
+        imageUrl:
+          "https://images.unsplash.com/photo-1563901935883-cb61f5d49be4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2134&q=80",
+        price: 21
+      },
+      {
+        id: 25,
+        name: "101 Marble",
+        imageUrl:
+          "https://images.unsplash.com/photo-1548690593-24c84de8e043?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=753&q=80",
+        price: 21
+      },
+      {
+        id: 26,
+        name: "Conan Edogawa Figur",
+        imageUrl:
+          "https://images.unsplash.com/photo-1561229474-1f22e022dfd4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80",
+        price: 13
       }
     ]
   },
@@ -152,53 +194,60 @@ const SHOP_DATA = {
     routeName: "achtelfjaehrige",
     items: [
       {
-        id: 23,
+        id: 27,
         name: "Marvel Hulk",
         imageUrl:
           "https://images.unsplash.com/photo-1542623024-a797a755b8d0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80",
         price: 52
       },
       {
-        id: 24,
+        id: 28,
         name: "Wall-E",
         imageUrl:
           "https://images.unsplash.com/photo-1563207153-f403bf289096?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80",
         price: 45
       },
       {
-        id: 25,
+        id: 29,
         name: "Meine Stadt",
         imageUrl:
           "https://images.unsplash.com/photo-1529978755210-7f13333beb13?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80",
         price: 135
       },
       {
-        id: 26,
+        id: 30,
         name: "Rennrad 14 Gänge, 24 Zoll",
         imageUrl:
           "https://images.unsplash.com/photo-1549216963-72c1712c1196?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80",
         price: 325
       },
       {
-        id: 27,
+        id: 31,
         name: "Uhlsport ball",
         imageUrl:
           "https://images.unsplash.com/photo-1516567727245-ad8c68f3ec93?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=687&q=80",
         price: 15
       },
       {
-        id: 28,
-        name: "Playstation 4",
-        imageUrl:
-          "https://images.unsplash.com/photo-1518908336710-4e1cf821d3d1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1473&q=80",
-        price: 325
-      },
-      {
-        id: 29,
+        id: 32,
         name: "Skateboard",
         imageUrl:
           "https://images.unsplash.com/photo-1537476102677-80bac0ab1d8b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80",
         price: 75
+      },
+      {
+        id: 33,
+        name: "Drohne",
+        imageUrl:
+          "https://images.unsplash.com/photo-1521405924368-64c5b84bec60?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=667&q=80",
+        price: 62
+      },
+      {
+        id: 34,
+        name: "Street Fighter Ken and Ryu figurines",
+        imageUrl:
+          "https://images.unsplash.com/photo-1566577134770-3d85bb3a9cc4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80",
+        price: 18
       }
     ]
   },
@@ -208,46 +257,60 @@ const SHOP_DATA = {
     routeName: "zwoelfup",
     items: [
       {
-        id: 30,
+        id: 35,
         name: "Playstation",
         imageUrl:
           "https://images.unsplash.com/photo-1493711662062-fa541adb3fc8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80",
         price: 325
       },
       {
-        id: 31,
+        id: 36,
         name: "Skateboard",
         imageUrl:
           "https://images.unsplash.com/photo-1547447134-cd3f5c716030?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=80",
         price: 325
       },
       {
-        id: 32,
+        id: 37,
         name: "Trekkingrad, 28 Zoll",
         imageUrl:
           "https://images.unsplash.com/photo-1485882794972-09e019e98d48?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1352&q=80",
         price: 425
       },
       {
-        id: 33,
+        id: 38,
         name: "Basketball NBA",
         imageUrl:
           "https://images.unsplash.com/photo-1516802273409-68526ee1bdd6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80",
         price: 19
       },
       {
-        id: 34,
+        id: 39,
         name: "Nintendo Switch",
         imageUrl:
           "https://images.unsplash.com/photo-1560278687-2941249fd3d2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80",
         price: 325
       },
       {
-        id: 35,
+        id: 40,
         name: "Boxhandschuhe",
         imageUrl:
           "https://images.unsplash.com/photo-1509255929945-586a420363cf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1201&q=80",
         price: 83
+      },
+      {
+        id: 41,
+        name: "Karate Kid Kinderkostüm",
+        imageUrl:
+          "https://images.unsplash.com/photo-1555597673-b21d5c935865?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=752&q=80",
+        price: 33
+      },
+      {
+        id: 42,
+        name: "Surfboard",
+        imageUrl:
+          "https://images.unsplash.com/photo-1531722569936-825d3dd91b15?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80",
+        price: 80
       }
     ]
   }
