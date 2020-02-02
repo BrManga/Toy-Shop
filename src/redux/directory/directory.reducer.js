@@ -12,30 +12,30 @@ let initialState = {
       linkUrl: "shop/babys"
     },
     {
-      title: "2 -4 jährige kinder",
+      title: "2 - 4 Years",
       imageUrl: zweiJahre,
       id: 2,
-      linkUrl: "shop/zweivierjaehrige"
+      linkUrl: "shop/twofouryears"
     },
     {
-      title: "5 - 7 jährige kinder",
+      title: "5 - 7 Years",
       imageUrl: fünfJahre,
       id: 3,
-      linkUrl: "shop/fuenfsiebenjaehrige"
+      linkUrl: "shop/fivesevenyears"
     },
     {
-      title: "8 - 11 jährige kinder",
+      title: "8 - 11 Years",
       imageUrl: achtJahre,
       size: "large",
       id: 4,
-      linkUrl: "shop/achtelfjaehrige"
+      linkUrl: "shop/eightelfyears"
     },
     {
       title: "12 & Up",
       imageUrl: zwoelfJahre,
       size: "large",
       id: 5,
-      linkUrl: "shop/zwoelfup"
+      linkUrl: "shop/twelveup"
     }
   ]
 };
